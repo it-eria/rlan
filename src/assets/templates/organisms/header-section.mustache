@@ -1,0 +1,82 @@
+{{#org-header-section}}
+<section class="header-section">
+  <div class="container">
+    <div class="header-section__main">
+
+      <div class="header-section__main__logo col-lg-3 col-12">
+        {{> ../molecules/logo-block}}
+      </div>
+
+      <div class="header-section__main__info col-lg-9">
+        <div class="header-section__main__info__achievement d-none d-lg-flex flex-wrap flex-row">
+          {{> ../molecules/achievement-info}}
+
+        </div>
+        <div class="header-section__main__info__content d-lg-block d-none">
+
+          <div class="header-section__main__info__content__social">
+            {{> ../molecules/social-block}}
+
+          </div>
+
+          <div class="header-section__main__info__content__contact">
+            {{>../molecules/contact-info}}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- <div class="container position-relative"> -->
+    <nav id="mobile-nav">
+      <div id="myNav" class="overlay">
+        <button class="close-burger">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+        </button>
+        <div class="overlay-content">
+          <a href="#home">Головна</a>
+          <a href="#founders">Інтернет</a>
+          <a href="#services">Телебачення</a>
+          <a href="#news">Новини</a>
+          <a href="#client">Для клієнтів</a>
+          <a href="#contact">Контакти</a>
+          <a href="#office">Особистий кабінет</a>
+          <div class="header-section__main__info__content">
+            <div class="header-section__main__info__content__social">
+              {{> ../molecules/social-block}}
+            </div>
+            <div class="header-section__main__info__content__contact">
+              {{>../molecules/contact-info}}
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="open-burger">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </button>
+    </nav>
+    <nav id="standard-nav">
+      <span class="brand"><i class="fas fa-hand-holding-heart"></i></span>
+      <div>
+          <a href="#home">Головна</a>
+          <a href="#founders">Інтернет</a>
+          <a href="#services">Телебачення</a>
+          <a href="#news">Новини</a>
+          <a href="#client">Для клієнтів</a>
+          <a href="#contact">Контакти</a>
+          <a href="#office">Особистий кабінет</a>
+      </div>
+      <!-- </div> -->
+    </nav>
+  </div>
+
+
+  </div>
+</section>
+
+{{/org-header-section}}

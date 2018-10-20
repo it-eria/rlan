@@ -1,0 +1,22 @@
+{{#atm-list}}
+  <ul {{#ul-class}}class="{{ul-class}}"{{/ul-class}}>
+    {{#list-item}}
+      <li {{#li-class}}class="{{li-class}}"{{/li-class}}>
+        {{{li-text}}}
+        {{> link }}
+        {{#sublist}}
+          <!-- Sublist -->
+          <ul {{#sub-ul-class}}class="{{sub-ul-class}}"{{/sub-ul-class}}>
+            {{#sublist-item}}
+              <li {{#sub-li-class}}class="{{sub-li-class}}"{{/sub-li-class}}>
+                {{{sub-li-text}}}
+                {{> link }}
+              </li>
+            {{/sublist-item}}
+          </ul>
+          <!-- /Sublist -->
+        {{/sublist}}
+      </li>
+    {{/list-item}}
+  </ul>
+{{/atm-list}}

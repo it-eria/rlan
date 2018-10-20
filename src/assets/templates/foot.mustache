@@ -1,0 +1,43 @@
+{{#foot}}
+  {{#vendor-scripts}}
+    {{#jquery}}
+      <!-- Jquery -->
+      <script src="assets/js/vendors/jquery-3.3.1.js"></script>
+    {{/jquery}}
+    {{#slick-slider}}
+      <!-- Slick slider -->
+      <script src="assets/js/vendors/slick.min.js"></script>
+    {{/slick-slider}}
+    {{#aos}}
+      <!-- Animate on scroll -->
+      <script src="assets/js/vendors/aos.js"></script>
+    {{/aos}}
+    {{#bootstrap}}
+      <!-- Bootstrap -->
+      <script src="assets/js/vendors/bootstrap.js"></script>
+    {{/bootstrap}}
+    {{#map}}
+      <!-- Map -->
+      <script>
+        function initMap() {
+          var coords = {lat: 49.812813, lng: 24.000806};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            center: coords
+          });
+          var marker = new google.maps.Marker({
+            position: coords,
+            map: map,
+            icon: "assets/img/marker.png"
+          });
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoLs4jh4_7ZW16LDVDAXDPGISWv9RN-x8&callback=initMap"
+      async defer></script>
+    {{/map}}
+    {{/vendor-scripts}}      
+    <!-- Custom script -->
+    <script src="assets/js/script.min.js"></script>
+    </body>
+  </html>
+{{/foot}}

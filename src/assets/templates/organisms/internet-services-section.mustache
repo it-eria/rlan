@@ -1,0 +1,41 @@
+{{#org-internet-services-section}}
+<section class="internet-services">
+  <div class="container">
+    <div class="internet-services__main">
+      <div class="internet-services__main__title">
+        {{> ../molecules/internet-services-title}}
+      </div>
+      <div class="internet-services__main__content">
+        <div class="internet-services__main__content__image">
+          {{> ../molecules/internet-services-image}}
+        </div>
+        <div class="internet-services__main__content__description">
+          {{> ../molecules/internet-services-description}}
+        </div>
+      </div>
+
+      <div class="internet-services__main__table">
+        {{#mol-table}}
+        <div class="internet-services__main__table__title">
+          <h2>{{table-title}}</h2>
+        </div>
+        <table>
+          {{#rows}}
+          <tr>
+            {{#cols}}
+            <td>
+              {{#text}}
+              <p>{{text}}</p>
+              {{/text}}
+            </td>
+            {{/cols}}
+          </tr>
+          {{/rows}}
+        </table>
+        {{/mol-table}}
+
+      </div>
+    </div>
+  </div>
+</section>
+{{/org-internet-services-section}}

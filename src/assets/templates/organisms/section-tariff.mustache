@@ -1,0 +1,56 @@
+{{#org-section-tariff}}
+
+<section class="tariff">
+  <div class="container">
+    <div class="tariff__main">
+
+      <div class="tariff__main__title">
+        {{> ../molecules/tariff-title}}
+      </div>
+
+      <div class="tariff__main__data-tariff">
+        {{> ../molecules/title-data-tariff}}
+      </div>
+
+      <div class="tariff__main__tabs">
+        <div class="tabs">
+          <div class="tab">
+            {{> ../molecules/tab-tariff}}
+          </div>
+          <div class="content active">
+            {{> ../molecules/tab-content-title}}
+            <ul>
+              {{> ../molecules/tab-content-info}}
+            </ul>
+            {{> ../molecules/tariff-connect-button}}
+          </div>
+          <div class="tab">
+            {{> ../molecules/tab-content-title-fast}}
+          </div>
+          <div class="content">
+            {{> ../molecules/tab-content-title}}
+            <ul>
+              {{> ../molecules/content-fast-info}}
+            </ul>
+            {{> ../molecules/tariff-connect-button}}
+          </div>
+
+          <div class="tab">
+            {{> ../molecules/tab-title-ultra}}
+          </div>
+          <div class="content">
+            {{> ../molecules/tab-content-title}}
+            <ul>
+              {{> ../molecules/tab-content-title-ultra}}
+            </ul>
+            {{> ../molecules/tariff-connect-button}}
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+{{/org-section-tariff}}

@@ -1,0 +1,27 @@
+{
+  "name": "my-styleguide-system",
+  "version": "1.0.0",
+  "author": "Vitaliy Pyzhenkov",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "browser-sync": "^2.24.5",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-mustache": "^3.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-wait": "0.0.2"
+  },
+  "dependencies": {}
+}
