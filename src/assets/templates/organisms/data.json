@@ -82,19 +82,19 @@
     "mol-tariff-connect-button": {
       "href-btn": "Підключити"
     },
-    "mol-tab-content-title-fast":{
-      "src":"assets/img/fast.png",
-      "name":"Тариф FAST"
+    "mol-tab-content-title-fast": {
+      "src": "assets/img/fast.png",
+      "name": "Тариф FAST"
     },
-    "mol-content-fast-info":[
+    "mol-content-fast-info": [
       {
-        "link":"Тарифний план: FAST"
+        "link": "Тарифний план: FAST"
       },
       {
-        "link":"Швидкість: 60 Мбіт/с"
+        "link": "Швидкість: 60 Мбіт/с"
       },
       {
-        "link":"Ціна: 160 грн./міс."
+        "link": "Ціна: 160 грн./міс."
       }
     ],
     "mol-tab-content-title-ultra": [
@@ -108,71 +108,106 @@
         "link": "Ціна: 190 грн./міс."
       }
     ],
-    "mol-tab-title-ultra":{
+    "mol-tab-title-ultra": {
       "src": "assets/img/ultra.png",
       "name": "Тариф ULTRA"
     }
- 
-
-
-
   },
-  "org-section-news":{
-
+  "org-section-news": {
+    "mol-news-view-title": {
+      "title": "НОВИНИ"
+    },
+    "mol-news-view-info": [
+      {
+        "image": "assets/img/christmas.jpg",
+        "alt": "christmas",
+        "h2-title": "Графік роботи на січень",
+        "btn": "Детальніше"
+      },
+      {
+        "image": "assets/img/repair.png",
+        "alt": "repair",
+        "h2-title": "Технічні роботи 19.07.2017",
+        "btn": "Детальніше"
+      },
+      {
+        "image": "assets/img/stop.png",
+        "alt": "stop",
+        "h2-title": "УВАГА! Обмеження доступу",
+        "btn": "Детальніше"
+      },
+      {
+        "image": "assets/img/growth_quotes.jpg",
+        "alt": "growth",
+        "h2-title": "Зміни в наданні послуг інтернету з 1 березня 2017 року",
+        "btn": "Детальніше"
+      },
+      {
+        "image": "assets/img/lp.jpg",
+        "alt": "lp",
+        "h2-title": "ОПЛАТА В ТЕРМІНАЛАХ СИСТЕМИ EASYSOFT",
+        "btn": "Детальніше"
+      },
+      {
+        "image": "assets/img/worker.jpg",
+        "alt": "worker",
+        "h2-title": "Переїзд офісу",
+        "btn": "Детальніше"
+      }
+    ]
   },
-  "org-contact-section":{
-    "mol-contact-title-h2":{
-      "title":"ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+  "org-contact-section": {
+    "mol-contact-title-h2": {
+      "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
     },
-    "mol-contact-item-img":{
-      "src":"assets/img/phone.png",
-      "alt":"phone-img"
+    "mol-contact-item-img": {
+      "src": "assets/img/phone.png",
+      "alt": "phone-img"
     },
-    "mol-contact-info-item":{
-      "title":"Контактна інформація",
+    "mol-contact-info-item": {
+      "title": "Контактна інформація",
       "href": "0673406929",
-      "number":"067 <strong>340-69-29</strong>",
-      "src":"assets/img/viber.png",
-      "alt":"viber",
-      "mail":"info@rlan.com.ua"
+      "number": "067 <strong>340-69-29</strong>",
+      "src": "assets/img/viber.png",
+      "alt": "viber",
+      "mail": "info@rlan.com.ua"
     },
-    "mol-office-item-img":{
-      "src":"assets/img/place.png",
-      "alt":"phone-img"
+    "mol-office-item-img": {
+      "src": "assets/img/place.png",
+      "alt": "phone-img"
     },
-    "mol-office-item-content":{
-      "title":"Офіс компанії",
-      "street":"смт. Рудно,вул. В.Великого 1а (2-й поверх)",
-      "see-more":"Подивитися на карті",
-      "href":"#"
-  
+    "mol-office-item-content": {
+      "title": "Офіс компанії",
+      "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+      "see-more": "Подивитися на карті",
+      "href": "#"
     },
-    "mol-chart-item-img":{
-      "src":"assets/img/clock.png",
-      "alt":"phone-img"
+    "mol-chart-item-img": {
+      "src": "assets/img/clock.png",
+      "alt": "phone-img"
     },
-    "mol-chart-item-content":{
-      "title":"Графік роботи",
-      "description":[
+    "mol-chart-item-content": {
+      "title": "Графік роботи",
+      "description": [
         {
-          "description1":"будні <strong>09:30 – 18:00</strong>"
+          "description1": "будні <strong>09:30 – 18:00</strong>"
         },
         {
-          "description1":"субота <strong>09:30 – 13:00</strong>"
+          "description1": "субота <strong>09:30 – 13:00</strong>"
         },
         {
-          "description1":"<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
         }
       ]
     }
   },
-  "org-repair-single":{
-    "mol-repair-single-title":{
-      "title":"ТЕХНІЧНІ РОБОТИ 19.07.2017"
+  "org-repair-single": {
+    "mol-repair-single-title": {
+      "title": "ТЕХНІЧНІ РОБОТИ 19.07.2017"
     },
-    "mol-repair-single-img":{
-      "src":"assets/img/repair.png",
-      "alt":"repair"
+    "mol-repair-single-img": {
+      "src": "assets/img/repair.png",
+      "alt": "repair"
     },
     "mol-repair-single-description": [
       {
@@ -189,30 +224,30 @@
       }
     ]
   },
-  "org-limitation-section":{
-    "mol-limitation-title":{
-      "title":"УВАГА! ОБМЕЖЕННЯ ДОСТУПУ"
+  "org-limitation-section": {
+    "mol-limitation-title": {
+      "title": "УВАГА! ОБМЕЖЕННЯ ДОСТУПУ"
     },
-    "mol-limitation-image":{
-      "src":"assets/img/stop.png",
-      "alt":"stop"
+    "mol-limitation-image": {
+      "src": "assets/img/stop.png",
+      "alt": "stop"
     },
     "mol-limitation-description": [
       {
         "description": "УВАГА! Обмеження доступу до веб-ресурсів та сервісів від Yandex, Mail.ru та інших Шановний користувачу! Доводимо до Вашого відома, що на виконання Рішення РНБО від 28.04.2017 «Про застосування персональних спеціальних економічних та інших обмежувальних заходів (санкцій)», яке введено в дію Указом Президента України від 15.05.2017 № 133, компанія Rlan вживає заходи щодо припинення доступу до сервісів, передбачених Додатком №2 вищевказаного рішення. Відповідно, користувачам мережі Rlan буде заблоковано доступ до сервісів «Mail.ru» (www.mail.ru), соціально-орієнтованих ресурсів «Вконтакте» (www.vk.com), «Одноклассники» (www.ok.ru) та інших згідно Додатку №2 (http://www.president.gov.ua). Задля збереження Вашої інформації, розміщеної на вказаних сервісах, радимо перенести її на інші альтернативні ресурси у найкоротші терміни."
       },
       {
-        "description":"З повагою, <strong>Адміністрація Rlan</strong>"
+        "description": "З повагою, <strong>Адміністрація Rlan</strong>"
       }
     ]
   },
   "org-internet-services-section": {
-    "mol-internet-services-title":{
-      "title":"ЗМІНИ В НАДАННІ ПОСЛУГ ІНТЕРНЕТУ З 1 БЕРЕЗНЯ 2017 РОКУ"
+    "mol-internet-services-title": {
+      "title": "ЗМІНИ В НАДАННІ ПОСЛУГ ІНТЕРНЕТУ З 1 БЕРЕЗНЯ 2017 РОКУ"
     },
-    "mol-internet-services-image":{
-      "src":"assets/img/growth_quotes.jpg",
-      "alt":"growth"
+    "mol-internet-services-image": {
+      "src": "assets/img/growth_quotes.jpg",
+      "alt": "growth"
     },
     "mol-internet-services-description": [
       {
@@ -452,63 +487,118 @@
       }
     ]
   },
-  "org-easysoft":{
-    "mol-easysoft-title":{
-      "title":"ОПЛАТА В ТЕРМІНАЛАХ СИСТЕМИ EASYSOFT"
+  "org-easysoft": {
+    "mol-easysoft-title": {
+      "title": "ОПЛАТА В ТЕРМІНАЛАХ СИСТЕМИ EASYSOFT"
     },
-    "mol-easysoft-image":{
-      "src":"assets/img/lp.jpg",
-      "alt":"lp"
+    "mol-easysoft-image": {
+      "src": "assets/img/lp.jpg",
+      "alt": "lp"
     },
-    "mol-easysoft-content-text":{
-      "description":[
+    "mol-easysoft-content-text": {
+      "description": [
         {
-          "text":"Компанія Rlan з радістю повідомляє, що відтепер платежі приймаються і в терміналах системи easysoft."
+          "text": "Компанія Rlan з радістю повідомляє, що відтепер платежі приймаються і в терміналах системи easysoft."
         },
         {
-          "text":"Для того, щоб поповнити рахунок Rlan через термінал необхідно:"
+          "text": "Для того, щоб поповнити рахунок Rlan через термінал необхідно:"
         }
       ],
-      "list":[
+      "list": [
         {
-          "list-text":"<span>в системі терміналу обрати розділ “Оплата за Інтернет”, в якому знайти плитку “Rlan” та активувати її;</span>"
+          "list-text": "<span>в системі терміналу обрати розділ “Оплата за Інтернет”, в якому знайти плитку “Rlan” та активувати її;</span>"
         },
         {
-          "list-text":"<span>у вікні, що з’явилося ввести свій логін після перевірки терміналом введеного логіну покласти в приймач для купюр необхідну суму і підтвердити операцію.</span>"
+          "list-text": "<span>у вікні, що з’явилося ввести свій логін після перевірки терміналом введеного логіну покласти в приймач для купюр необхідну суму і підтвердити операцію.</span>"
         },
         {
-          "list-text":"<span>поповнення рахунку відбудеться протягом декількох хвилин."
+          "list-text": "<span>поповнення рахунку відбудеться протягом декількох хвилин."
         },
         {
-          "list-text":"<span>не забути забрати чек, що видає термінал. Цей чек може придатися у випадку, якщо виникли труднощі з проведенням оплати.</span>"
+          "list-text": "<span>не забути забрати чек, що видає термінал. Цей чек може придатися у випадку, якщо виникли труднощі з проведенням оплати.</span>"
         }
       ],
-      "warning":"Увага: комісію за послуги терміналу сплачує абонент!"
-    }
-  
-  },
-  "org-office-moving-section":{
-    "mol-office-title":{
-      "title":"ПЕРЕЇЗД ОФІСУ"
-    },
-    "mol-office-image":{
-      "src":"assets/img/worker.jpg",
-      "alt":"worker"
-    },
-    "mol-office-description":{
-      "description":"З 1 червня 2015 року, офіс що знаходится за адресою вулиця Огієнка 14, переносится на вулицю В.Великого 1а (2-й поверх)."
+      "warning": "Увага: комісію за послуги терміналу сплачує абонент!"
     }
   },
-"org-tv-section":{
-  "mol-tv-section-title":{
-    "title":"RLAN TV"
+  "org-office-moving-section": {
+    "mol-office-title": {
+      "title": "ПЕРЕЇЗД ОФІСУ"
+    },
+    "mol-office-image": {
+      "src": "assets/img/worker.jpg",
+      "alt": "worker"
+    },
+    "mol-office-description": {
+      "description": "З 1 червня 2015 року, офіс що знаходится за адресою вулиця Огієнка 14, переносится на вулицю В.Великого 1а (2-й поверх)."
+    }
   },
-  "mol-tv-section-text":{
-    "text1":"Компанія Rlan спільно з ТОВ “Телетранс” пропонує своїм абонентам якісне телебачення в цифровій якості. Для перегляду доступні понад 170 ліцензійних ТВ-каналів. Перегляд каналів телебачення можливий на телевізорах SMART (Samsung, LG, інші), комп’ютерах з встановленою програмою перегляду (VLC, IP-TV Player), медіаприставках (з підтримкою IPTV).",
-    "link":"Ознайомитись з переліком каналів",
-    "text2":"Послуга доступна на тарифах для багатоквартирних будинків та приватного сектору: Тариф FAST, Тариф ULTRA."
-  }
-
-},
-"org-my-office-block":{}
+  "org-tv-section": {
+    "mol-tv-section-title": {
+      "title": "RLAN TV"
+    },
+    "mol-tv-section-text": {
+      "text1": "Компанія Rlan спільно з ТОВ “Телетранс” пропонує своїм абонентам якісне телебачення в цифровій якості. Для перегляду доступні понад 170 ліцензійних ТВ-каналів. Перегляд каналів телебачення можливий на телевізорах SMART (Samsung, LG, інші), комп’ютерах з встановленою програмою перегляду (VLC, IP-TV Player), медіаприставках (з підтримкою IPTV).",
+      "link": "Ознайомитись з переліком каналів",
+      "text2": "Послуга доступна на тарифах для багатоквартирних будинків та приватного сектору: Тариф FAST, Тариф ULTRA."
+    }
+  },
+  "org-for-client-section-tabs": true,
+  "org-my-office-block": true,
+  "org-choose-your-tariff-tabs": true,
+  "org-thunderstorm-section": {
+    "mol-thunderstorm-title": {
+      "title": "УВАГА! ГРОЗА!"
+    },
+    "mol-thunderstorm-image": {
+      "src": "assets/img/severe-thunderstorm-01.jpg",
+      "alt": "thunderstorm"
+    },
+    "mol-thunderstorm-description": [
+      {
+        "description": "Наполегливо рекомендуємо під час грози витягувати мережевий кабель з Вашого комп’ютера або маршрутизатора. Існує велика ймовірність пошкодження мережевої карти, маршрутизатора або й самого комп’ютера."
+      },
+      {
+        "description": "У разі несправностей чи аварій наша компанія старається у найстисліші терміни усунути неполадки, які виникли внаслідок гроз, однак терміни виконання залежать від завантаження технічного персоналу. Графік робіт формується і виконуються згідно черги, сформованої на основі заявок, які надійшли до техпідтримки."
+      }
+    ]
+  },
+  "org-accident-section": {
+    "mol-accident-title": {
+      "title": "АВАРІЯ"
+    },
+    "mol-accident-image": {
+      "src": "assets/img/danger.jpg",
+      "alt": "danger"
+    },
+    "mol-accident-description": [
+      {
+        "description": "Шановні абоненти!"
+      },
+      {
+        "description": "20 травня в нашій мережі сталася непередбачувана аварія, що спричинило труднощі з доступом до інтернету кінцевим користувачам. Наші спеціалісти зробили все можливе, щоб якнайшвидше відлагодити роботу мережі."
+      },
+      {
+        "description": "Просимо з розумінням поставитись до даної ситуації та вибачаємось за завдані Вам незручності."
+      }
+    ]
+  },
+  "org-changes-tariff-section": {
+    "mol-changes-tariff-title": {
+      "title": "ЗМІНА ТАРИФІВ"
+    },
+    "mol-changes-tariff-image": {
+      "src": "assets/img/changes-of-otariff.jpg",
+      "alt": "changes"
+    },
+    "mol-changes-tariff-description": [
+      {
+        "description": "З метою доведення ціни послуг до економічно обгрунтованого рівня, який дозволяв би нашій компанії і надалі якісно обслуговувати абонентів, з 1 лютого 2015 року зміняться тарифи за послугу доступу до інтернету. Підвищення тарифів складе 10 грн. для кожного тарифного плану*. Дякуємо за Ваше розуміння. З повагою, Rlan."
+      },
+      {
+        "description": "*Тобто, якщо Ви оплачували 50 грн./міс., то з 01.02.2015р вартість послуги складатиме 60 грн./міс., 80 грн./міс. – 90грн./міс., 100 грн./міс. – 110 грн./міс. відповідно"
+      }
+    ]
+  },
+  "org-contact-us-section":true
 }

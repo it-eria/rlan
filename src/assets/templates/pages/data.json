@@ -117,7 +117,49 @@
         "name": "Тариф ULTRA"
       }
     },
-    "org-section-news": true,
+    "org-section-news": {
+      "mol-news-view-title": {
+        "title": "НОВИНИ"
+      },
+      "mol-news-view-info": [
+        {
+          "image": "assets/img/christmas.jpg",
+          "alt": "christmas",
+          "h2-title": "Графік роботи на січень",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/repair.png",
+          "alt": "repair",
+          "h2-title": "Технічні роботи 19.07.2017",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/stop.png",
+          "alt": "stop",
+          "h2-title": "УВАГА! Обмеження доступу",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/growth_quotes.jpg",
+          "alt": "growth",
+          "h2-title": "Зміни в наданні послуг інтернету з 1 березня 2017 року",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/lp.jpg",
+          "alt": "lp",
+          "h2-title": "ОПЛАТА В ТЕРМІНАЛАХ СИСТЕМИ EASYSOFT",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/worker.jpg",
+          "alt": "worker",
+          "h2-title": "Переїзд офісу",
+          "btn": "Детальніше"
+        }
+      ]
+    },
     "org-services-section": true,
     "org-contact-section": {
       "mol-contact-title-h2": {
@@ -1453,13 +1495,892 @@
     "head": {
       "title": "my-office"
     },
-    "org-my-office-block":{},
+    "org-my-office-block": {},
     "foot": {
       "vendor-scripts": {
         "jquery": true,
         "slick-slider": true,
         "aos": true,
         "bootstrap": true
+      }
+    }
+  },
+  "p-news-single": {
+    "head": {
+      "title": "news-single"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-section-news": {
+      "mol-news-view-title": {
+        "title": "НОВИНИ"
+      },
+      "mol-news-view-info": [
+        {
+          "image": "assets/img/christmas.jpg",
+          "alt": "christmas",
+          "h2-title": "Графік роботи на січень",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/repair.png",
+          "alt": "repair",
+          "h2-title": "Технічні роботи 19.07.2017",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/stop.png",
+          "alt": "stop",
+          "h2-title": "УВАГА! Обмеження доступу",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/growth_quotes.jpg",
+          "alt": "growth",
+          "h2-title": "Зміни в наданні послуг інтернету з 1 березня 2017 року",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/lp.jpg",
+          "alt": "lp",
+          "h2-title": "ОПЛАТА В ТЕРМІНАЛАХ СИСТЕМИ EASYSOFT",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/worker.jpg",
+          "alt": "worker",
+          "h2-title": "Переїзд офісу",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/severe-thunderstorm-01.jpg",
+          "alt": "thunder",
+          "h2-title": "Увага! гроза!",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/danger.jpg",
+          "alt": "danger",
+          "h2-title": "Аварія",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/holidays.jpg",
+          "alt": "holidays",
+          "h2-title": "ГРАФІК РОБОТИ НА СВЯТА",
+          "btn": "Детальніше"
+        },
+        {
+          "image": "assets/img/changes-of-otariff.jpg",
+          "alt": "changes",
+          "h2-title": "ЗМІНА ТАРИФІВ",
+          "btn": "Детальніше"
+        }
+      ]
+    },
+    "org-services-section": true,
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-for-clients": {
+    "head": {
+      "title": "for-clients"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-for-client-section-tabs": {},
+    "org-services-section": true,
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-internet": {
+    "head": {
+      "title": "Internet"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-choose-your-tariff-tabs": true,
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-thunderstorm": {
+    "head": {
+      "title": "thunderstorm"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-thunderstorm-section": {
+      "mol-thunderstorm-title": {
+        "title": "УВАГА! ГРОЗА!"
+      },
+      "mol-thunderstorm-image": {
+        "src": "assets/img/severe-thunderstorm-01.jpg",
+        "alt": "thunderstorm"
+      },
+      "mol-thunderstorm-description": [
+        {
+          "description": "Наполегливо рекомендуємо під час грози витягувати мережевий кабель з Вашого комп’ютера або маршрутизатора. Існує велика ймовірність пошкодження мережевої карти, маршрутизатора або й самого комп’ютера."
+        },
+        {
+          "description": "У разі несправностей чи аварій наша компанія старається у найстисліші терміни усунути неполадки, які виникли внаслідок гроз, однак терміни виконання залежать від завантаження технічного персоналу. Графік робіт формується і виконуються згідно черги, сформованої на основі заявок, які надійшли до техпідтримки."
+        }
+      ]
+    },
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-accident": {
+    "head": {
+      "title": "accident"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-accident-section": {
+      "mol-accident-title": {
+        "title": "АВАРІЯ"
+      },
+      "mol-accident-image": {
+        "src": "assets/img/danger.jpg",
+        "alt": "danger"
+      },
+      "mol-accident-description": [
+        {
+          "description": "Шановні абоненти!"
+        },
+        {
+          "description": "20 травня в нашій мережі сталася непередбачувана аварія, що спричинило труднощі з доступом до інтернету кінцевим користувачам. Наші спеціалісти зробили все можливе, щоб якнайшвидше відлагодити роботу мережі."
+        },
+        {
+          "description": "Просимо з розумінням поставитись до даної ситуації та вибачаємось за завдані Вам незручності."
+        }
+      ]
+    },
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-changes-tariff": {
+    "head": {
+      "title": "changes-tariff"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-changes-tariff-section": {
+      "mol-changes-tariff-title": {
+        "title": "ЗМІНА ТАРИФІВ"
+      },
+      "mol-changes-tariff-image": {
+        "src": "assets/img/changes-of-otariff.jpg",
+        "alt": "changes"
+      },
+      "mol-changes-tariff-description": [
+        {
+          "description": "З метою доведення ціни послуг до економічно обгрунтованого рівня, який дозволяв би нашій компанії і надалі якісно обслуговувати абонентів, з 1 лютого 2015 року зміняться тарифи за послугу доступу до інтернету. Підвищення тарифів складе 10 грн. для кожного тарифного плану*. Дякуємо за Ваше розуміння. З повагою, Rlan."
+        },
+        {
+          "description": "*Тобто, якщо Ви оплачували 50 грн./міс., то з 01.02.2015р вартість послуги складатиме 60 грн./міс., 80 грн./міс. – 90грн./міс., 100 грн./міс. – 110 грн./міс. відповідно"
+        }
+      ]
+    },
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+  "p-holidays": {
+    "head": {
+      "title": "holidays"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-holiday-section": true,
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true
+      }
+    }
+  },
+
+
+
+
+
+  
+  "p-contact-us": {
+    "head": {
+      "title": "contact-us"
+    },
+    "org-header-section": {
+      "mol-logo-block": {
+        "img": "assets/img/logo.png"
+      },
+      "mol-achievement-info": [
+        {
+          "title": "9 років",
+          "description": "на ринку"
+        },
+        {
+          "title": "1 тиc.+",
+          "description": "задоволених клієнтів"
+        }
+      ],
+      "mol-social-block": {
+        "number": "067-<strong>340-69-29</strong>",
+        "href": "0673406929",
+        "social": [
+          {
+            "src": "assets/img/viber.png",
+            "alt": "viber"
+          },
+          {
+            "src": "assets/img/telegram.png",
+            "alt": "twitter"
+          }
+        ]
+      },
+      "mol-contact-info": {
+        "street": "смт. Рудно, вул. В.Великого 1а",
+        "mail": "info@rlan.com.ua",
+        "see-more": "Подивитися на карті"
+      }
+    },
+    "org-holiday-section": true,
+    "org-contact-section": {
+      "mol-contact-title-h2": {
+        "title": "ЯК З НАМИ ЗВ'ЯЗАТИСЬ"
+      },
+      "mol-contact-item-img": {
+        "src": "assets/img/phone.png",
+        "alt": "phone-img"
+      },
+      "mol-contact-info-item": {
+        "title": "Контактна інформація",
+        "href": "0673406929",
+        "number": "067 <strong>340-69-29</strong>",
+        "src": "assets/img/viber.png",
+        "alt": "viber",
+        "mail": "info@rlan.com.ua"
+      },
+      "mol-office-item-img": {
+        "src": "assets/img/place.png",
+        "alt": "phone-img"
+      },
+      "mol-office-item-content": {
+        "title": "Офіс компанії",
+        "street": "смт. Рудно,вул. В.Великого 1а (2-й поверх)",
+        "see-more": "Подивитися на карті",
+        "href": "#"
+      },
+      "mol-chart-item-img": {
+        "src": "assets/img/clock.png",
+        "alt": "phone-img"
+      },
+      "mol-chart-item-content": {
+        "title": "Графік роботи",
+        "description": [
+          {
+            "description1": "будні <strong>09:30 – 18:00</strong>"
+          },
+          {
+            "description1": "субота <strong>09:30 – 13:00</strong>"
+          },
+          {
+            "description1": "<strong>НЕДІЛЯ ВИХІДНИЙ</strong>"
+          }
+        ]
+      }
+    },
+    "org-contact-us-section":true,
+    "org-footer-section": true,
+    "foot": {
+      "vendor-scripts": {
+        "jquery": true,
+        "slick-slider": true,
+        "aos": true,
+        "bootstrap": true,
+        "map": true
       }
     }
   }
